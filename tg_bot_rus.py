@@ -2,9 +2,8 @@ import telebot
 import openai
 import time
 from googletrans import Translator
-
-bot = telebot.TeleBot("<YOUR_TG_BOT_KEY_HERE>")
-openai.api_key = "<YOUR_OPEN_API_KEY_HERE>"
+bot = telebot.TeleBot("5822569903:AAGQazhYc81KnvBSRtcfleoxJiWSStxuA7I")
+openai.api_key = "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"
 model = "davinci:ft-personal:<YOUR_MODEL_HERE>"
 stop_symbols = "###"
 
