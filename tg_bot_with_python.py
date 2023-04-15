@@ -18,12 +18,12 @@ import uuid
 # Proxy server for accessing OpenAI API
 app = flask.Flask(__name__)
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("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")
 if not OPENAI_API_KEY:
     print("Please set OPENAI_API_KEY environment variable")
     exit()
 
-TG_TOKEN = os.getenv("TG_TOKEN")
+TG_TOKEN = os.getenv("5822569903:AAGQazhYc81KnvBSRtcfleoxJiWSStxuA7I")
 if not TG_TOKEN:
     print("Please set TG_TOKEN environment variable")
     exit()
